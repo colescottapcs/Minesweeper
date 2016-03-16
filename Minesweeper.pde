@@ -1,4 +1,3 @@
- /* @pjs preload="http://minesweeperonline.com/sprite100.gif"; */
 
 import de.bezier.guido.*;
 private static int NUM_ROWS = 16;
@@ -24,7 +23,7 @@ void setup ()
     // make the manager
     Interactive.make( this );
     
-    sprites = loadImage("http://minesweeperonline.com/sprite100.gif");
+    sprites = loadImage("http://minesweeperonline.com/sprite100.gif", "gif");
 
     //your code to declare and initialize buttons goes here
     buttons = new MSButton[NUM_ROWS][NUM_COLS];
