@@ -1,4 +1,4 @@
-
+ /* @pjs preload="http://minesweeperonline.com/sprite100.gif"; */
 
 import de.bezier.guido.*;
 private static int NUM_ROWS = 16;
